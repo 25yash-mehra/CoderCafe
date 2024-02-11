@@ -1,0 +1,340 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(124, 86, 86);
+}
+.nav,ul,li,a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    padding: 1px 20px;
+    margin-top: 10px;
+    /* margin: 20px; */
+    font-size: 20px;
+}
+.book button{
+    margin-top: 29px;
+    margin-left: 15px;
+    background-color: burlywood;
+}
+.book button:hover{
+    cursor: pointer;
+    background-color:orange;
+}
+.nav ul li:hover{
+    color: rgb(255, 179, 0);
+    cursor: pointer;
+}
+.text-1 {
+  /* font-size: 29px; */
+  /* color: transparent; */
+  /* -webkit-text-stroke: 3px rgb(141, 117, 117); */
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.text-1 h1::first-letter{
+    font-size: 90px;
+    color: brown;
+}
+.img-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.break-img img {
+  animation: updown 5s infinite;
+}
+@-webkit-keyframes updown{
+
+0%{
+    transform: translateY(-35px);
+}
+50%{
+    transform: translateY(35px);
+}
+100%{
+    transform: translateY(-35px);
+}
+}
+.confirm-seat button:hover{
+    background-color: orange;
+}
+.confirm-seat button {
+  /* border: none; */
+  background-color:burlywood;
+  box-shadow: 23px 16px 53px -6px;;
+}
+
+
+.about h1::first-letter{
+    font-size: 90px;
+    color: brown;
+}
+.about{
+    text-align: center;
+    margin-top: 80px;
+}
+.coffe-date{
+    margin-top: 90px;
+    margin-left: 3dvh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.coffe-date p{
+  width: 700px;
+}
+
+
+.coffe-date img{
+    animation: move 5s infinite;
+}
+@-webkit-keyframes move{
+    0%{
+transform: translateY(-35px);
+    }
+    50%{
+        transform: translateY(35px);
+    }
+    100%{
+        transform: translateY(-35px);
+    }
+}
+
+/* .coffe-date,p{
+  width: 700px;
+}                        DOUBT .............*/ 
+
+.service h1::first-letter{
+    font-size: 90px;
+    color: brown;
+}
+.service,h1{
+  text-align: center;
+}
+.parent-card1 {
+    border: 5px solid brown;
+    width: 250px;
+    border-radius: 200px;
+    height: 210px;
+    /* display: flex; */
+    /* justify-content: center; */
+    position: relative;
+    left: 450px;
+    margin-top: 50px;
+} 
+.child-card1 {
+  background-image: url(./Group.png);
+  border: 6px solid burlywood;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 180px;
+  border-radius: 100px;
+  margin-left: 21px;
+  margin-top: 12px;
+}
+.service-text1 h1::first-letter{
+    color: brown;
+    font-size: 50px;
+}
+
+.service-head{
+    padding: 12px;
+}
+/* .service-head{
+display: flex;
+justify-content: center;
+flex-direction: column;
+} .....................SAMASYAAAA......... */
+
+.service-text1 {
+  /* width: 400px; */
+  text-align: center;
+}
+
+
+.parent-card2 {
+    border: 5px solid brown;
+  width: 250px;
+  height: 210px;
+  border-radius: 200px;
+  /* margin-top: 40px; */
+  /* padding-top: 20px; */
+}
+.child-card2 {
+  background-image: url(./coffe-thinking.png);
+  border: 6px solid burlywood;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  height: 180px;
+  border-radius: 100px;
+  margin-top: 10px;
+  width: 200px;
+  margin-left: 21px;
+}
+
+.parent-card2 {
+  position: relative;
+  left: 450px;
+}
+.service-text2 {
+  text-align: center;
+}
+
+.service-text2 h1::first-letter{
+    color: brown;
+    font-size: 50px;
+}
+
+
+.parent-card3 {
+    border: 5px solid brown;
+  width: 250px;
+  height: 210px;
+  border-radius: 200px;
+}
+.child-card3 {
+    border: 6px solid burlywood;
+  background-image: url(./coders_cafe_logo-removebg-preview.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  border-radius: 100px;
+  height: 180px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+.parent-card3 {
+  position: relative;
+  left: 450px;
+}
+
+.service-text3 {
+  text-align: center;
+}
+.service-text3 h1::first-letter{
+color: brown;
+font-size: 50px;
+}
+
+
+.booking-head,h2{
+  font-size: 37px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.booking-head h2::first-letter{
+  color: brown;
+font-size: 70px;
+}
+
+.personal-details {
+  display: flex;
+}
+
+.fname {
+  padding-right: 17px;
+  padding-left: 22px;
+  margin-top: 12px;
+}
+.fname input{
+  border-radius: 7px;
+  padding: 4px;
+}
+.fname label {
+/* padding-top: 12px; */
+  font-size: 20px;
+  font-family: cursive;
+}
+.ph-number input{
+  border-radius: 7px;
+  padding: 4px;
+}
+.ph-number label{
+  font-size: 20px;
+  font-family: cursive;
+}
+.ph-number {
+  margin-top: 12px;
+}
+
+.members-details {
+  display: flex;
+}
+
+.week select{
+  padding: 6px;
+  margin-top: 5px;
+  border-radius: 7px;
+}
+.week label{
+  font-size: 18px;
+  font-family: cursive;
+}
+.members select{
+  padding: 4px;
+  margin-top: 4px;
+  /* padding-top: 12px; */
+  border-radius: 7px;
+}
+.members label{
+  font-size: 18px;
+  font-family: cursive;
+}
+.members {
+  padding-right: 40px;
+  padding-left: 22px;
+  padding-top: 22px;
+}
+.week {
+  padding-top: 22px;
+}
+.booking-form{
+  border: 2px solid black;
+  width: 400px;
+  border-radius: 20px;
+  margin-left: 60px;
+  background-color: rgb(227, 175, 226);
+  box-shadow:  2px 3px 74px 5px;
+}
+.booking-Button button{
+  padding: 9px 18px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-family: cursive;
+  border-radius: 12px;
+  background-color: burlywood;
+}
+.booking-Button button:hover{
+  background-color: orange;
+}
+
+
+/* .fname input:focus{
+border-color: orangered;
+}   SAMASYAAAA........*/
+
+.booking-section {
+  display: flex;
+  justify-content: space-between;
+}
+iframe{
+  margin-right: 20px;
+}
+.end-footer {
+  margin-top: 60px;
+  background-color:rgb(200, 123, 123);
+}
